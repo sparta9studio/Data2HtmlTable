@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <script>window.hljs = {};</script>
+</head>
+<body tabindex="0">
+  <div class="data-preview">
+    <div class="commands section">
+      <button id="btn-run">Run command</button>
+    </div>
+    <div class="statement section" id="statement">
+      <pre id="code-block" class="code-block"><code class="sql" id="code"></code></pre>
+      <textarea class="editor" id="editor" tabindex="1"></textarea>
+      <a class="btn-edit" id="btn-edit" href="#">Edit</a>
+    </div>
+    <div class="data section">
+      <table class="table" id="table">
+        <tr>
+          <td class="no-data">No data</td>
+        </tr>
+      </table>      
+    </div>
+  </div>
+</body>
+</html>

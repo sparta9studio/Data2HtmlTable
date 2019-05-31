@@ -1,0 +1,33 @@
+{
+  "name": "data-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "highlightjs-line-numbers.js": "^2.7.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "query-string": "^6.5.0",
+    "sass-loader": "^7.1.0",
+    "terser-webpack-plugin": "^1.2.4",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "highlight.js": "^9.15.6"
+  }
+}
